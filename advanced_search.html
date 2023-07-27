@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div id="as_top">
+            <div id="as_glogo">
+                <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="Google Logo">
+            </div>
+            <div class="link_div">
+                <a href="index.html">Google Search</a>
+            </div>
+        </div>
+        <div id="as_tit">Advanced Search</div>
+
+        <hr style="border: 0.1px solid #f3f3f3e8;">
+
+        <div id="as_header">
+            <div id="as_lhead"><p>Find pages with...</p></div>
+            <div id="as_rhead"><p>To do this in the search box.</p></div>
+        </div>
+        
+        <form action="https://google.com/search">
+            <div class="as_q">
+                <div class="as_lable"><label>all these words:</label></div>
+                <div class="as_input"><input type="text" name="as_q"></div>
+                <div class="as_info">Type the important words: tri-colour rat terrier</div>
+            </div>
+
+            <div class="as_q">
+                <div class="as_lable"><label>this exact word or phrase:</label></div>
+                <div class="as_input"><input type="text" name="as_epq"></div>
+                <div class="as_info">Put exact words in quotes: "rat terrier"</div>
+            </div>
+
+            <div class="as_q">
+                <div class="as_lable"><label>any of these words:</label></div>
+                <div class="as_input"><input type="text" name="as_oq"></div>
+                <div class="as_info">Type OR between all the words you want: miniature OR standard</div>
+            </div>
+            
+            <div class="as_q">
+                <div class="as_lable"><label>none of these words:</label></div>
+                <div class="as_input"><input type="text" name="as_eq"></div>
+                <div class="as_info">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</div>
+            </div>
+
+            <div class="as_button"><button type="submit">Advanced Search</button></div>
+        
+        </form>
+    </body>
+</html>

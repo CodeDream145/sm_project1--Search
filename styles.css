@@ -1,0 +1,133 @@
+.link_div {
+  position: relative;
+  right: auto;
+  text-align: right; }
+  .link_div a {
+    color: #414141;
+    font-family: Arial;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 10px; }
+  .link_div a:hover {
+    color: #101010; }
+
+#s_container {
+  position: relative;
+  top: 100px;
+  text-align: center; }
+
+#s_image, #s_search {
+  margin: 10px; }
+
+#s_bar {
+  font-size: 14px;
+  font-size: medium;
+  font-family: arial,sans-serif;
+  color: #202124;
+  border-radius: 24px;
+  outline: auto;
+  outline-color: #d6d6d6;
+  border-color: transparent;
+  line-height: 30px;
+  width: 30%;
+  padding: 4px; }
+
+.s_button {
+  margin: 20px 4px;
+  padding: 0 16px;
+  font-size: 14px;
+  font-family: arial,sans-serif;
+  color: #3c4043;
+  height: 36px;
+  min-width: 54px;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  cursor: pointer; }
+
+.s_button:hover {
+  border: 1px solid #d4d4d4; }
+
+#as_top {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 12px;
+  margin-left: 2px; }
+
+#as_glogo {
+  position: absolute;
+  text-align: left; }
+
+#as_tit {
+  color: #d93025;
+  font-size: 20px;
+  font-style: inherit;
+  font-family: Arial, sans-serif;
+  margin: 36px 0px 25px 37px; }
+
+#as_header {
+  display: flex;
+  margin-top: 29px;
+  margin-left: 37px;
+  margin-bottom: 10px; }
+
+#as_lhead {
+  position: absolute;
+  align-items: left;
+  font-family: arial,sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  min-width: 167px;
+  width: 16%;
+  font-size: 16px;
+  min-height: 42px;
+  color: #333;
+  font-weight: 500;
+  vertical-align: middle; }
+
+#as_rhead {
+  position: absolute;
+  right: 227px;
+  padding-top: 5px;
+  padding-left: 5px;
+  width: 33%;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: Arial, sans-serif;
+  color: #777;
+  padding-left: 5px; }
+
+.as_q {
+  position: relative;
+  display: flex;
+  top: 50px;
+  left: 37px; 
+  margin-bottom: 10px;}
+
+.as_lable {
+  height: 30px;
+  color: #222;
+  font-size: 13px;
+  line-height: 16px;
+  width: 12%;
+  font-family: arial,sans-serif;
+  vertical-align: middle;
+  min-width: 167px; }
+
+.as_input {
+  padding: 1px;
+  width: 556px; }
+  .as_input input {
+    text-align: left;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    width: 100%; }
+
+.as_info {
+  margin-left: px; } 
+
+/*# sourceMappingURL=styles.css.map */
